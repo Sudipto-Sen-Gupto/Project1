@@ -1,0 +1,108 @@
+.divi{
+    display: grid;
+    grid-template-columns: auto auto auto;
+     background-color: black;
+}
+img{
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 200px;
+}
+.head{
+   
+    color: antiquewhite;
+   margin-left: 300px;
+    padding: 20px;
+    font-size: 25px;
+    font-style: italic;
+     text-align: center;
+}
+
+.list{
+display: grid;
+grid-template-columns: auto auto auto auto;
+ margin-top: 70px;
+}
+.list ul{
+
+}
+.list ul li{
+list-style-type: none;
+font-size: 25px;
+}
+.list ul li a{
+    text-decoration: none;
+    color: azure;
+    padding: 10px;
+   
+}
+.list ul li a:hover{
+    color: skyblue;
+}
+
+.divi2{
+    background-image: url("image/img\ \(1\).jpg") ; 
+    height: 1000px;
+   
+}
+.main{
+
+     width: 500px;
+     background-color: teal
+     ;
+    color: white;
+     margin: 5px auto;
+     text-align: center;
+     padding: 15px;
+     box-shadow: 15px 15px 15px black;
+}
+.main:hover{
+    background-color:cornflowerblue
+    ;
+    color: aliceblue;
+     box-shadow: 15px 15px 15px black;
+}
+.divi3{
+   text-align: center;
+}
+.divi3 input{
+      margin-top: 20px;
+      font-size: 20px;
+      width: 600px;
+      border: 5px solid orangered;
+      border-radius: 50px;
+      padding: 15px;
+      background-color: transparent;
+      color: azure;
+      height: 50px;
+}
+::placeholder{
+    color: aliceblue;
+    text-align: center;
+}
+.divi4{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    justify-content: center;
+    /* margin: 100px; */
+}
+.education{
+    background-color: coral;
+    color:white ;
+    width: 300px;
+    padding: 20px;
+    
+    box-shadow: 10px 10px 15px skyblue;
+  margin: 100px;
+    text-align: center;
+}
+.education:hover{
+    background-color: skyblue;
+    color:white ;
+    width: 300px;
+    padding: 20px;
+    
+    box-shadow: 10px 10px 15px coral ;
+  margin: 100px;
+    text-align: center;
+}
