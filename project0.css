@@ -48,7 +48,7 @@ padding: 20px;
 }
 
 .divi2{
-    background-image: url("image/img\ \(1\).jpg") ; 
+    background-image: url("image/img\ \(1\).jpg"),linear-gradient(rgba(4,9,30,.7),rgba(4,9,30,0.7)) ; 
     height: 750px;
    
 }
